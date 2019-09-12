@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0>
+  <dict>
+    <key>Label</key>
+    <string>com.symless.synergyc</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/opt/local/bin/synergyc</string>
+      <string>--debug</string>
+      <string>FATAL</string>
+      <string>--no-daemon</string>
+      <string>synergy-server</string>
+    </array>
+    <key>StandardErrorPath</key>
+    <string>/Users/misha/Library/Logs/synergyc.log</string>
+    <key>StandardOutPath</key>
+    <string>/Users/misha/Library/Logs/synergyc.log</string>
+    <key>ExitTimeOut</key>
+    <integer>30</integer>
+  </dict>
+</plist>
